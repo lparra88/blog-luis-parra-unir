@@ -47,3 +47,15 @@ footer {
     color: #fff;
     position: relative;
 }
+
+.imagenes {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Alinea las imágenes verticalmente */
+    gap: 20px; /* Añade un espacio entre las imágenes */
+}
+
+.imagenes img {
+    max-width: 300px; /* Ajusta el ancho máximo de cada imagen */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
