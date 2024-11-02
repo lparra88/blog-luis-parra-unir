@@ -56,6 +56,6 @@ footer {
 }
 
 .imagenes img {
-    max-width: 300px; /* Ajusta el ancho máximo de cada imagen */
+    max-width: 50px; /* Ajusta el ancho máximo de cada imagen */
     height: auto; /* Mantiene la proporción de las imágenes */
 }
