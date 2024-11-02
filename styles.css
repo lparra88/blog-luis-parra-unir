@@ -60,3 +60,17 @@ footer {
     height: auto; /* Mantiene la proporción de las imágenes */
     object-fit: cover; /* Asegura que la imagen se ajuste al tamaño del contenedor */
 }
+
+.imagenes_playas {
+    display: flex; /* Alinea las imágenes en fila */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+    margin-top: 20px; /* Añade un espacio superior al contenedor */
+}
+
+.imagenes_playas img {
+    width: 300px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Añade bordes redondeados*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra para un efecto más atractivo */
+}
