@@ -14,47 +14,52 @@
     <main>
         <article>
             <h2>Introducción</h2>
+            
             <p>¡Hola a todos! Estoy muy emocionado de compartir mi primera entrada de blog con ustedes. En este espacio les voy a contar cómo inicié con la creación de mi propio sitio web y lo publiqué usando <strong>GitHub Pages</strong>. Espero que esta experiencia pueda ser útil para aquellos que también quieren aprender a crear su propio blog y ponerlo en línea.</p>
 
-            <h2>Paso 1: Creación del Repositorio en GitHub</h2>
-            <p>El primer paso para crear mi blog fue establecer un repositorio en <strong>GitHub</strong>. Esto fue clave para almacenar y gestionar todos los archivos del blog de manera organizada. Aquí les dejo cómo lo hice:</p>
-            <ol>
-                <li>Primero, fui a <a href="https://github.com">GitHub</a> y me registré (si aún no tienes cuenta, este es el primer paso).</li>
-                <li>Luego, hice clic en el botón <strong>"New"</strong> (Nuevo) para crear un repositorio nuevo. Elegí un nombre sencillo, como "mi-blog", y lo hice <strong>público</strong> para que cualquier persona pudiera acceder al sitio.</li>
-                <li>Seleccioné la opción <strong>"Add a README file"</strong> para tener un archivo inicial y agregué una breve descripción sobre el propósito del blog.</li>
-            </ol>
-            <p>Una vez creado el repositorio, estaba listo para empezar a trabajar en los archivos que formarían parte del blog.</p>
-        
-            <h2>Paso 2: Configuración de Git y Visual Studio Code</h2>
-            <p>Para trabajar de manera más cómoda y eficiente, decidí usar <strong>Visual Studio Code</strong> (VS Code) como mi editor de código y configuré <strong>Git</strong> para gestionar los cambios en el código de mi proyecto.</p>
-            <ul>
-                <li><strong>Instalación de Git</strong>: Primero, descargué e instalé <a href="https://git-scm.com/">Git</a>. Esto me permitió clonar el repositorio y sincronizar los cambios entre mi computadora y GitHub.</li>
-                <li><strong>Configuración de Visual Studio Code</strong>: Luego, instalé <a href="https://code.visualstudio.com/">VS Code</a>. Dentro de VS Code, abrí la terminal e hice la configuración básica de Git:</li>
-            </ul>
-            <pre><code>git config --global user.name "Tu Nombre"
-            <h2>Paso 3: Clonar el Repositorio y Empezar a Trabajar</h2>
-            <p>Una vez que todo estaba listo, cloné el repositorio en mi computadora usando VS Code. Para ello:</p>
-            <ol>
+        <h2>Paso 1: Creación del Repositorio en GitHub</h2>
+        <p>El primer paso para crear mi blog fue establecer un repositorio en <strong>GitHub</strong>. Esto fue clave para almacenar y gestionar todos los archivos del blog de manera organizada. Aquí les dejo cómo lo hice:</p>
+        <ol>
+            <li>Primero, fui a <a href="https://github.com">GitHub</a> y me registré (si aún no tienes cuenta, este es el primer paso).</li>
+            <li>Luego, hice clic en el botón <strong>"New"</strong> (Nuevo) para crear un repositorio nuevo. Elegí un nombre sencillo, como "mi-blog", y lo hice <strong>público</strong> para que cualquier persona pudiera acceder al sitio.</li>
+            <li>Seleccioné la opción <strong>"Add a README file"</strong> para tener un archivo inicial y agregué una breve descripción sobre el propósito del blog.</li>
+        </ol>
+        <p>Una vez creado el repositorio, estaba listo para empezar a trabajar en los archivos que formarían parte del blog.</p>
+
+        <h2>Paso 2: Configuración de Git y Visual Studio Code</h2>
+        <p>Para trabajar de manera más cómoda y eficiente, decidí usar <strong>Visual Studio Code</strong> (VS Code) como mi editor de código y configuré <strong>Git</strong> para gestionar los cambios en el código de mi proyecto.</p>
+        <ul>
+            <li><strong>Instalación de Git</strong>: Primero, descargué e instalé <a href="https://git-scm.com/">Git</a>. Esto me permitió clonar el repositorio y sincronizar los cambios entre mi computadora y GitHub.</li>
+            <li><strong>Configuración de Visual Studio Code</strong>: Luego, instalé <a href="https://code.visualstudio.com/">VS Code</a>. Dentro de VS Code, abrí la terminal e hice la configuración básica de Git:</li>
+        </ul>
+        <pre><code>git config --global user.name "Tu Nombre" git config --global user.email "tu_email@example.com"</code></pre>
+        <p>Esto es importante porque permite que Git registre quién hace los cambios en cada archivo.</p>
+
+        <h2>Paso 3: Clonar el Repositorio y Empezar a Trabajar</h2>
+        <p>Una vez que todo estaba listo, cloné el repositorio en mi computadora usando VS Code. Para ello:</p>
+        <ol>
             <li>Copié la URL del repositorio desde GitHub.</li>
             <li>En <strong>VS Code</strong>, abrí la paleta de comandos (<code>Ctrl + Shift + P</code> o <code>Cmd + Shift + P</code> en Mac) y escribí <strong>"Git: Clone"</strong>.</li>
             <li>Pegué la URL y seleccioné una carpeta donde guardar los archivos localmente.</li>
-            </ol>
-            <p>Con el repositorio clonado, comencé a trabajar en los archivos HTML y CSS para crear las páginas de mi blog.</p>
-            
-            <h2>Paso 4: Publicación con GitHub Pages</h2>
-            <p>Finalmente, para publicar mi blog en línea, utilicé <strong>GitHub Pages</strong>. Esto fue relativamente sencillo:</p>
-            <ol>
+        </ol>
+        <p>Con el repositorio clonado, comencé a trabajar en los archivos HTML y CSS para crear las páginas de mi blog.</p>
+
+        <h2>Paso 4: Publicación con GitHub Pages</h2>
+        <p>Finalmente, para publicar mi blog en línea, utilicé <strong>GitHub Pages</strong>. Esto fue relativamente sencillo:</p>
+        <ol>
             <li>Fui a la sección <strong>Settings</strong> del repositorio en GitHub.</li>
             <li>Desplacé hacia abajo hasta encontrar la opción <strong>"Pages"</strong>.</li>
             <li>Seleccioné la rama <strong>"main"</strong> y la carpeta <strong>"root"</strong> para publicar el sitio directamente desde la carpeta principal del repositorio.</li>
-            </ol>
-            <p>Una vez hecho esto, GitHub Pages generó un enlace público para mi sitio, el cual pude compartir con todos ustedes. ¡Fue realmente emocionante ver mi trabajo en línea!</p>
-            
-            <h2>Reflexiones Finales</h2>
-            <p>Este proceso me ayudó a entender mejor cómo se pueden usar herramientas gratuitas y poderosas para crear y publicar contenido en la web. Aunque al principio puede parecer complicado, GitHub Pages es una excelente opción para quienes desean crear un sitio web sin costos y con un control completo sobre el código.</p>
-            <p>Espero que esta guía haya sido de ayuda para aquellos que también quieren aprender a crear su propio blog y publicarlo. Si tienen alguna pregunta o quieren saber más detalles de algún paso, no duden en dejar un comentario.</p>
-            
-            <p>¡Gracias por leer y nos vemos en la próxima entrada!</p>           
+        </ol>
+        <p>Una vez hecho esto, GitHub Pages generó un enlace público para mi sitio, el cual pude compartir con todos ustedes. ¡Fue realmente emocionante ver mi trabajo en línea!</p>
+
+        <h2>Reflexiones Finales</h2>
+        <p>Este proceso me ayudó a entender mejor cómo se pueden usar herramientas gratuitas y poderosas para crear y publicar contenido en la web. Aunque al principio puede parecer complicado, GitHub Pages es una excelente opción para quienes desean crear un sitio web sin costos y con un control completo sobre el código.</p>
+        <p>Espero que esta guía haya sido de ayuda para aquellos que también quieren aprender a crear su propio blog y publicarlo. Si tienen alguna pregunta o quieren saber más detalles de algún paso, no duden en dejar un comentario.</p>
+
+        <p>¡Gracias por leer y nos vemos en la próxima entrada!</p>
+
+
         </article>
     </main>
 
